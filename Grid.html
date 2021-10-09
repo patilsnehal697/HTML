@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+    <style>
+        .container{display: grid ;gap: 10px;grid-template-columns: repeat(4,250px);border: 2px solid black;justify-content: center;
+                height: 300px; background-color: rgb(242, 242, 248);}
+        .box{ background: whitesmoke;
+            color:black;
+            font-size: medium;
+            border-radius: 3px;
+            padding: 20px ;}
+        .box-1{grid-column: 1;grid-row:1/4;background-color: rgb(101, 101, 221); color: whitesmoke;}
+        .box-2{grid-row: 1;grid-column: 2;height: 10px; margin-top: 50px;border: 1px solid gray; margin-left: 20px;}
+        .box-3{grid-row: 1;grid-column: 3;width: 240px;height: 10px; margin-top: 50px;border: 1px solid gray;margin-left: 15px;}
+        .box-4{grid-row: 2;grid-column: 2/4; height: 50px; width: 500px;margin-top:20px;border: 1px solid gray; margin-left: 20px;}
+        .btn{grid-row: 3;grid-column: 2/4;height: 37px; width: 540px;color: rgb(247, 244, 244);background-color: blue;
+        text-align: center;margin-left: 20px;}
+        .name{grid-row: 1;grid-column: 2;color: rgb(7, 7, 7);margin-top: 20px;font-size: medium;margin-left: 20px;}
+        .email{grid-row: 1;grid-column: 3;margin-top: 20px;color: rgb(7, 6, 6);margin-left: 15px;}
+        .message{grid-row: 2;grid-column: 2/4; color: rgb(14, 12, 12);margin-top:0px;margin-left: 20px;}
+        .p{position: relative ;top: 140px;}
+        .g{position: relative ;top: 130px}
+        .box5{margin-top: 100px;padding-left: 90px; padding-right: 400px;}
+        .h{margin-top: 10px;}
+    </style>
+    </head>
+<body>
+    <div class="box5">
+        <div class="container">
+        <div class="box box-1"><b>Contact us</b>
+             <p>We can't wait to hear from you. Feel free to get in touch with us.</p>
+             <p class="p">Happy ST</p>
+             <p class="g">000-111-222</p>
+            </div>
+            <label class="name">Full Name</label>
+            <div class="box box-2"></div>
+            <label class="email">Email Address</label>
+            <div class="box box-3"></div>
+            <label class="message">Message</label>
+            <div class="box box-4"></div>
+            <div class="btn btn-primary">
+                <p class="h">Send Message</p></div>
+            </div>
+            </div>
+            
+        
+    
+</body>
+</html>
